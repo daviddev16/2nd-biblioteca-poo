@@ -1,0 +1,19 @@
+plugins {
+    id 'application'
+    id "com.github.johnrengelman.shadow" version "7.1.0"
+}
+
+group 'org.biblioteca'
+version '1.0-SNAPSHOT'
+
+apply plugin: "com.github.johnrengelman.shadow"
+mainClassName = 'org.biblioteca.Mains'
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+repositories {
+    mavenCentral()
+}
+
