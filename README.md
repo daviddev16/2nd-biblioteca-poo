@@ -1,6 +1,8 @@
 # Segunda chamada avaliação POO
 
-
+<p align="center">
+  <img src="https://i.imgur.com/5YOsEwL.png">
+</p>
 Faça um programa em Java para controlar uma Biblioteca. O programa deve manter
 um cadastro de livros e suas respectivas locações. O aplicativo deve apresentar
 também alguns relatórios para saber os livros cuja devolução está em atraso.
